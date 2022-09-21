@@ -1,0 +1,58 @@
+.navbar{
+  background-color: black;
+  width: 100%;
+  height: 25px;
+  display: flex;
+  justify-content: flex-end;
+  color: aliceblue;
+}
+#main{
+  background-color: bisque;
+  border-radius: 10px;
+  border-color: red;
+  border-style: solid;
+  border-width: 2px;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+#header{
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  margin:10px;
+  font-size: xx-large;
+  text-align: center;
+  }
+#highscore {
+  text-align: center;
+  font-size: large;
+}
+
+/* .wireFrame{
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+ 
+} */
+.playArea {
+  justify-content: center;
+  margin: 15px;
+  margin-top: 15px;
+  font-size: large;
+}
+.output {
+  font-size: xx-large;
+}
+.instructions {
+  justify-content: center;
+  margin: 15px;
+}
+.submit{
+  background-color: aqua;
+  justify-content: center;
+  margin: 25px;
+}
+.renderOutput{
+  display: flex;
+  justify-content: space-around;
+}
