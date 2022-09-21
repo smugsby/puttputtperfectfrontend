@@ -24,7 +24,7 @@ const errorLink = onError(({ graphQLErrors, networkError }) => {
 
 
 const link = createHttpLink({
-  uri: '/graphql',
+  uri: 'https://puttputtperfectbackend.herokuapp.com/graphql',
 });
 
 const logError = ApolloLink.from([errorLink, link]);
