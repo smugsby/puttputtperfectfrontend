@@ -56,3 +56,9 @@
   display: flex;
   justify-content: space-around;
 }
+.instructions {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin: 15px;
+}

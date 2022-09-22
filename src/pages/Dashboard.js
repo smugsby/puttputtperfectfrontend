@@ -59,8 +59,8 @@ const Dashboard = () => {
 
   return (
     <>
-      <Navbar />
       <div id="main" className="wireFrame" style={{ width: 412, minHeight: 732 }}>
+        <Navbar/>
         <div id="header">
           <p>PuttPuttPerfect</p>
           <p id="highscore">Recent High Score</p>
