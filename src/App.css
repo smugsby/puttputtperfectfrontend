@@ -43,10 +43,7 @@
 .output {
   font-size: xx-large;
 }
-.instructions {
-  justify-content: center;
-  margin: 15px;
-}
+
 .submit{
   background-color: aqua;
   justify-content: center;

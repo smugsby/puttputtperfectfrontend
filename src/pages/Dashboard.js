@@ -121,18 +121,18 @@ const Dashboard = () => {
                 }}
                 defaultValue={"                "}
                 ></input> */}
-              <input onChange= {handleChange} type="checkbox" checked= {input.firstIn} name="firstIn"/>
+              {/* <input onChange= {handleChange} type="checkbox" checked= {input.firstIn} name="firstIn"/>
               Made first
               <input onChange= {handleChange} type="checkbox" checked= {input.lastIn} name="lastIn"/>
               Made last
               <input onChange= {handleChange} type="checkbox" checked= {input.allMade} name="allMade"/>
-              Made all
+              Made all */}
             <button className='submit' type="submit" style={{ width: 250, height: 50 }}>
               Save Score
             </button>
             </form>
           </div>
-         <p className='distScore'><strong>Below are your results:</strong></p>
+         <p className='instructions'><strong>Below are your results:</strong></p>
             <div className="outPut">
               {rounds !== undefined ? 
               rounds.map((round)=> 
