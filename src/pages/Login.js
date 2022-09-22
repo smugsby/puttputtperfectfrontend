@@ -8,6 +8,7 @@ const Login = () => {
         
   return (
     <>
+    <div id="main" className="wireFrame" style={{ width: 412, minHeight: 732 }}>
     <Navbar/>
     {!toggle ?
     <LoginForm/>:
@@ -22,6 +23,7 @@ const Login = () => {
 
             SignUp
         </div>
+    </div>
     </div>
     </>
   )

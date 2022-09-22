@@ -82,18 +82,19 @@ const Dashboard = () => {
           <div className="playArea">
             <form onSubmit={(e) => {handleSaveRound(e);}}>
               <select name='distance' value={input.distance} onChange= {handleChange} className='distance'>
-                <option>10'</option>
-                <option>15'</option>
-                <option>20'</option>
-                <option>25'</option>
-                <option>30'</option>
-                <option>35'</option>
-                <option>40'</option>
-                <option>45'</option>
-                <option>50'</option>
+                <option>distance</option>
+                <option>10 feet</option>
+                <option>15 feet</option>
+                <option>20 feet</option>
+                <option>25 feet</option>
+                <option>30 feet</option>
+                <option>35 feet</option>
+                <option>40 feet</option>
+                <option>45 feet</option>
+                <option>50 feet</option>
               </select>
               <select name='puttsMade' value={input.puttsMade} onChange= {handleChange} className='puttsMade'>
-                <option>0</option>
+                <option>putts</option>
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
@@ -131,7 +132,7 @@ const Dashboard = () => {
             </button>
             </form>
           </div>
-         
+         <p className='distScore'><strong>Below are your results:</strong></p>
             <div className="outPut">
               {rounds !== undefined ? 
               rounds.map((round)=> 
@@ -140,10 +141,10 @@ const Dashboard = () => {
               <div>{round.puttsMade}</div>
               </div>))
               : <></> }
-              <strong>
+              {/* <strong>
                 <p>Your Total Score Is </p>
                 <p id="output"> </p>
-              </strong>
+              </strong> */}
             </div>
           </div>
         </div>
