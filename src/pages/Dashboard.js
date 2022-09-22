@@ -95,16 +95,16 @@ const Dashboard = () => {
               </select>
               <select name='puttsMade' value={input.puttsMade} onChange= {handleChange} className='puttsMade'>
                 <option>putts</option>
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-                <option>6</option>
-                <option>7</option>
-                <option>8</option>
-                <option>9</option>
-                <option>10</option>
+                <option>1 made</option>
+                <option>2 made</option>
+                <option>3 made</option>
+                <option>4 made</option>
+                <option>5 made</option>
+                <option>6 made</option>
+                <option>7 made</option>
+                <option>8 made</option>
+                <option>9 made</option>
+                <option>10 made</option>
               </select>            
               {/* <input
                 type= 'text'
